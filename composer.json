@@ -1,5 +1,6 @@
 {
     "name": "codecare/orocrm-connect",
+    "version": "master",
     "type": "symfony-bundle",
     "description": "OroCRM facade bundle",
     "authors": [
@@ -22,5 +23,10 @@
         "exclude-from-classmap": [
             "/Tests/"
         ]
+    },
+    "source": {
+        "url": "https://github.com/nfrigus/test-bundle.git",
+        "type": "git",
+        "reference": "master"
     }
 }
